@@ -19,7 +19,8 @@ try:
                 precio_base = 10.00
         case _:
             print("Error: Vehículo no reconocido.")
-            return
+            import sys
+            sys.exit(1)
 
     costo_distancia = distancia * tasa_km
     monto_total = precio_base + costo_distancia
