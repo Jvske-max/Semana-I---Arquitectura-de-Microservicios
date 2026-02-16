@@ -1,4 +1,3 @@
-
 print("--- Sistema de Cálculo de Transportes ---")
 print("Opciones de vehículo: Pickup, Gandola, Mudanza")
 
